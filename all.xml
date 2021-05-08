@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="."
+          revision="refs/heads/master" />
+
+  <!-- h3 -->
+  <project path="sd-fuse_h3" name="sd-fuse_h3" remote="origin" revision="refs/heads/master" />
+
+  <!-- h5 -->
+  <project path="sd-fuse_h5" name="sd-fuse_h5" remote="origin" revision="refs/heads/master" />
+
+  <!-- s5p4418 -->
+  <project path="sd-fuse_s5p4418" name="sd-fuse_s5p4418" remote="origin" revision="refs/heads/master" />
+
+  <!-- s5p6818 -->
+  <project path="sd-fuse_s5p6818" name="sd-fuse_s5p6818" remote="origin" revision="refs/heads/master" />
+
+  <!-- rk3328 -->
+  <project path="sd-fuse_rk3328" name="sd-fuse_rk3328" remote="origin" revision="refs/heads/master" />
+  
+  <!-- rk3399 -->
+  <project path="sd-fuse_rk3399-kernel4.4" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/master" />
+  <project path="sd-fuse_rk3399-kernel4.19" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-4.19" />
+  <project path="sd-fuse_rk3399-kernel5.10" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-5.10.y" />
+
+
+</manifest>
