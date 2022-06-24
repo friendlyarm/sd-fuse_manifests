@@ -25,5 +25,8 @@
   <project path="sd-fuse_rk3399-kernel4.19" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-4.19" />
   <project path="sd-fuse_rk3399-kernel5.15" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-5.15.y" />
 
+  <!-- rk3568 -->
+  <project path="sd-fuse_rk3568-master" name="sd-fuse_rk3568" remote="origin" revision="refs/heads/master" />
+
 
 </manifest>
