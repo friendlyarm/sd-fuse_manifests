@@ -28,5 +28,8 @@
   <!-- rk3568 -->
   <project path="sd-fuse_rk3568-master" name="sd-fuse_rk3568" remote="origin" revision="refs/heads/master" />
 
+  <!-- rk3588 -->
+  <project path="sd-fuse_rk3588-master" name="sd-fuse_rk3588" remote="origin" revision="refs/heads/master" />
+
 
 </manifest>
