@@ -2,13 +2,14 @@
 ## How to use
 Firstly you need to install the repo utility:
 ```
-git clone https://github.com/friendlyarm/repo
-sudo cp repo/repo /usr/bin/
+wget 'https://storage.googleapis.com/git-repo-downloads/repo' -P /tmp/
+sudo cp /tmp/repo /usr/local/bin/repo
+sudo chmod +x /usr/local/bin/repo
 ```
 Here you go:
 ```
 mkdir sd-fuse_all
 cd sd-fuse_all
-repo init -u https://github.com/friendlyarm/sd-fuse_manifests -b master -m all.xml --repo-url=https://github.com/friendlyarm/repo  --no-clone-bundle
+repo init -u https://github.com/friendlyarm/sd-fuse_manifests -b master -m all.xml --no-clone-bundle
 repo sync -c  --no-clone-bundle
 ```
